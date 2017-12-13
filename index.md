@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+## Predicting (and preventing) traffic fatalities
 
-You can use the [editor on GitHub](https://github.com/rlrognstad/capstone1-site/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+**Problem:** Tens of thousands of people are killed in vehicle-related crashes every year in the United States. Understanding the spatial and temporal patterns of these crashes could inform state and local planners and law enforcement to reduce fatalities by changing infrastructure patterns, local regulations, or driver training.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Dataset(s):** Main dataset is US Department of Transportation traffic fatalities dataset: [FARS](https://www.transportation.gov/fastlane/2015-traffic-fatalities-data-has-just-been-released-call-action-download-and-analyze) 
+There is lots of potential to combine other datasets like OpenStreetView, driving behaviour from StreetLight Data or Waze, population data from census, possibly data on speed limits or other traffic laws/regulations. Weather data as it could be interesting because it is related to visibility and other physical driving conditions.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rlrognstad/capstone1-site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Main question(s):** What spatial trends exist in the traffic fatality prevalence data? How are these trends related to predictor variables (weather conditions, traffic conditions, road/infrastructure, etc.)?
